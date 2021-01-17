@@ -58,7 +58,7 @@ void platformPing()
     InvalidateRect(g_wnd, NULL, FALSE);
 }
 
-int main(void)
+int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine, int nCmdShow)
 {
     GdiFont* font;
     struct nk_context *ctx;
